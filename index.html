@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+    body {
+        font-family: sans-serif;
+    }
+    button {
+        width: 200px;
+        height: 100px;
+        font-size: 2rem;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    </style>
+</head>
+<body>
+    <!-- button for clicking input -->
+    <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <hr>
+    <!-- visual rep of each round -->
+    <h2 id="results">Round results: </h2>
+    <hr>
+    <!-- counter for the wins-->
+    <h2>SCORE</h2>
+    <h3>Player1: <span id="p1-wins"></span></h3>
+    <h3>Player2: <span id="p2-wins"></span></h3>
+    <hr>
+    <!-- celebrate the victor -->
+    <h1 id="congrats"></h1>
+    <footer>
+        <script src="rps.js"></script>
+    </footer>
+</body>
+</html>
